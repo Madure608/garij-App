@@ -1,0 +1,162 @@
+.screen {
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e3e6eb;
+  padding: 18px 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.back-arrow {
+  font-size: 18px;
+  color: #5b6472;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.status-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e6f6ec;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+}
+
+.status-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1f8a4c;
+}
+
+.status-sub {
+  font-size: 11px;
+  color: #5b6472;
+  margin-top: 2px;
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1f8a4c;
+}
+
+.toggle {
+  width: 40px;
+  height: 22px;
+  border-radius: 20px;
+  background: #ccc;
+  position: relative;
+}
+
+.toggle.on {
+  background: #2fba63;
+}
+
+.toggle-circle {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.photo-box {
+  border: 1px dashed #b7bcc5;
+  border-radius: 10px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a909b;
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+
+.field-label {
+  display: block;
+  font-size: 12px;
+  color: #5b6472;
+  margin-bottom: 4px;
+}
+
+.text-input {
+  width: 100%;
+  border: 1px solid #d8dbe1;
+  border-radius: 8px;
+  padding: 9px 10px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.location-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d8dbe1;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.link-text {
+  color: #1aa6a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.service-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d8dbe1;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.save-btn {
+  width: 100%;
+  background: #1b2a4a;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
